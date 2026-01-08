@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     // .env의 VITE_BASE_URL을 사용하거나 기본값 '/' 적용
-    base: env.VITE_BASE_URL || '/vrt-starter-r1',
+    base: env.VITE_BASE_URL || '/vrt-starter-r1/',
     plugins: [
       react(),
       tailwindcss(),

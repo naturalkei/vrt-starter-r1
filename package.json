@@ -12,8 +12,11 @@
   "packageManager": "pnpm@10.27.0",
   "type": "module",
   "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.2",
+    "tailwindcss": "^4.0.0",
     "typescript": "^5.9.3",
     "vite": "^7.3.1"
   },

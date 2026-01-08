@@ -42,7 +42,7 @@
 ### 1. Clone the repository
 
 ```bash
-git clone [https://github.com/your-username/vrt-starter-r1.git](https://github.com/your-username/vrt-starter-r1.git)
+git clone https://github.com/your-username/vrt-starter-r1.git
 cd vrt-starter-r1
 ```
 
@@ -58,7 +58,7 @@ Create a `.env` file in the root directory if you need to customize local develo
 
 ```conf
 VITE_BASE_URL=/
-VITE_GITHUB_URL=[https://github.com/your-username/vrt-starter-r1](https://github.com/your-username/vrt-starter-r1)
+VITE_GITHUB_URL=https://github.com/your-username/vrt-starter-r1.git
 ```
 
 ### 4. Run Development Server

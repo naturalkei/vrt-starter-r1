@@ -10,6 +10,8 @@
 > <br> A highly opinionated starter template featuring **React 19**, **Vite 7**, and **Tailwind CSS 4**.
 > <br> Formatted exclusively with **ESLint 9** (No Prettier, No Semicolons).
 
+![VRT](./public/vrt-260108-1.png)
+
 ## 🚀 Features
 
 * **⚡️ Blazing Fast:** Built with **Vite 7** for instant server start and HMR.
@@ -67,13 +69,16 @@ pnpm dev
 
 ## 📜 Scripts
 
-* `pnpm dev` - Starts the development server.
-* `pnpm build` - Runs TypeScript type checking (tsc -b) and builds for production.
-* `pnpm serve` - Previews the production build locally.
-* `pnpm lint` - Runs ESLint and auto-fixes styling issues.
+| Script            | Description                                                                |
+|-------------------|----------------------------------------------------------------------------|
+| `pnpm dev`        | Starts the development server.                                              |
+| `pnpm build`      | Runs TypeScript type checking (`tsc -b`) and builds for production.         |
+| `pnpm serve`      | Previews the production build locally.                                      |
+| `pnpm lint`       | Runs ESLint styling issues.                                                 |
+| `pnpm lint:fix`   | Automatically fixes all ESLint auto-fixable style issues.                   |
 
 
-## 🧩 Project StructurePlaintext
+## 🧩 Project Structure
 
 ```text
 vrt-starter-r1/

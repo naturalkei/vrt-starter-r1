@@ -45,7 +45,11 @@ git clone [https://github.com/your-username/vrt-starter-r1.git](https://github.c
 cd vrt-starter-r1
 ```
 
-### 2. Install dependenciesBashpnpm install
+### 2. Install dependencies
+
+```bash
+pnpm install
+```
 
 ### 3. Setup Environment Variables (Optional)
 

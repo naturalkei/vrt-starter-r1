@@ -32,7 +32,7 @@ export default function Layout() {
 
       {/* Simple Footer */}
       <footer className="border-t border-gray-100 py-8 text-center text-sm text-slate-500">
-        <p>©2026 naturalk. MIT License.</p>
+        <p>©2026 naturalkei. MIT License.</p>
       </footer>
     </div>
   )

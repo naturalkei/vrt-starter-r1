@@ -18,7 +18,6 @@
 * **✨ Zero Prettier:** Styling and formatting are handled entirely by **ESLint 9** (`@stylistic/eslint-plugin`).
     * *Single Quotes*
     * *No Semicolons*
-    * *Sorted Imports*
 * **🛡️ Type Safe:** Strict TypeScript 5 configuration with separated `app` and `node` environments.
 * **🛣️ Smart Routing:** **React Router v6** with auto-mapped path aliases (`@/` -> `src/`).
 * **🤖 CI/CD Ready:** Automated deployment to **GitHub Pages** via GitHub Actions.
@@ -98,12 +97,12 @@ vrt-starter-r1/
 
 (ESLint Only)This project does not use Prettier. Instead, it uses ESLint 9 with `@stylistic/eslint-plugin` to enforce specific formatting rules:
 
-* Semi: Never (const a = 1)
-* Quotes: Single ('hello')
-* JSX Quotes: Double (<div className="box">)
+* Semi: Never (`const a = 1`)
+* Quotes: Single (`'hello'`)
+* JSX Quotes: Double (`<div className="box">`)
 * Indent: 2 spaces
-* Object Curly Spacing: Always ({ key: value })
-* React Hooks: Strictly enforced (react-hooks/recommended)
+* Object Curly Spacing: Always (`{ key: value }`)
+* React Hooks: Strictly enforced (`react-hooks/recommended`)
 
 To fix style issues, simply run:
 ```bash

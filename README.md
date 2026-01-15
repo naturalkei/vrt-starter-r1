@@ -62,8 +62,6 @@ VITE_GITHUB_URL="https://github.com/{username}/{reponame}"
 VITE_SITE_URL="https://{username}.github.io/{reponame}/"
 ```
 
-```
-
 ### 4. Run Development Server
 
 ```bash

@@ -29,13 +29,13 @@
 
 | Category | Technology | Version |
 | :--- | :--- | :--- |
-| **Framework** | React | v19 |
-| **Build Tool** | Vite | v7 |
-| **Styling** | Tailwind CSS | v4 |
-| **Language** | TypeScript | v5 |
-| **Linter** | ESLint (Flat Config) | v9 |
-| **Router** | React Router | v6 |
-| **Package Manager** | pnpm | v9+ |
+| **Framework** | [React](https://react.dev) | v19 |
+| **Build Tool** | [Vite](https://vitejs.dev) | v7 |
+| **Styling** | [Tailwind CSS](https://tailwindcss.com) | v4 |
+| **Language** | [TypeScript](https://www.typescriptlang.org) | v5 |
+| **Linter** | [ESLint (Flat Config)](https://eslint.org) | v9 |
+| **Router** | [React Router](https://reactrouter.com) | v6 |
+| **Package Manager** | [pnpm](https://pnpm.io) | v9+ |
 
 ## 🛠 Getting Started
 
@@ -57,8 +57,9 @@ pnpm install
 Create a `.env` file in the root directory if you need to customize local development variables.
 
 ```conf
-VITE_BASE_URL=/
-VITE_GITHUB_URL=https://github.com/your-username/vrt-starter-r1.git
+VITE_BASE_URL="/{reponame}"
+VITE_GITHUB_URL="https://github.com/{username}/{reponame}"
+VITE_SITE_URL="https://{username}.github.io/{reponame}/"
 ```
 
 ### 4. Run Development Server

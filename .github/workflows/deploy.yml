@@ -13,10 +13,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      # 예: /vrt-starter-r1/
+      # ex: /vrt-starter-r1/
       VITE_BASE_URL: /${{ github.event.repository.name }}/
-      # 예: https://github.com/user/vrt-starter-r1
+      # ex: https://github.com/user/vrt-starter-r1
       VITE_GITHUB_URL: ${{ github.server_url }}/${{ github.repository }}
+      # ex: https://{username}.github.io/{reponame}/
+      VITE_SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
     steps:
     - uses: actions/checkout@v4
     - uses: pnpm/action-setup@v3
